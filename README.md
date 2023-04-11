@@ -11,7 +11,10 @@
   - Follow the instructions given by GitHub to “push an existing repository from the command line” be sure to select HTTPS or SSH, whichever is relevant for you
   - Create a Branch and begin your work. As always, ACP often.
 
-- Your App component should render a Header, Footer and Main component, each of which is defined in their own files.
+- Your App component should render the following, each of which is defined in their own files.
+  - Header
+  - Footer
+  - Main component
 
 - Your Header component needs to have an `<h1>` with a title.
 
