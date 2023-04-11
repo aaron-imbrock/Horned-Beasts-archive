@@ -1,6 +1,6 @@
-import React from 'react';
+import { Component } from 'react';
 
-class Footer extends React.Component {
+class Footer extends Component {
     render() {
         return <h1>Created by {this.props.creator}</h1>
     }

@@ -1,5 +1,5 @@
 import React from 'react';
-
+import HornedBeast from './Hornedbeast';
 
 const imgs = [
     'https://bobbyhadz.com/images/blog/react-prevent-multiple-button-clicks/thumbnail.webp',
@@ -20,15 +20,4 @@ class Main extends React.Component {
     }
 }
 
-class HornedBeast extends React.Component {
-    render() {
-        return (
-        <>
-            <h2>{this.props.title}</h2>
-            <img src={this.props.image} alt={this.props.alt} title={this.props.title} width="200"></img>
-            <p>{this.props.description}</p>
-        </>
-        )
-    }
-}
-export default Main;
+export default Main;    
