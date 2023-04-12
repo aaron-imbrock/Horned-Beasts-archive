@@ -43,7 +43,11 @@ How are we implementing it?
 
     The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
 
-
+    Number and name of feature: 
+    Estimate of time needed to complete: 
+    Start time:  
+    Finish time:  
+    Actual time needed to complete:  
 
 ### Feature #3 Bootstrap
 
@@ -61,6 +65,11 @@ How are we implementing it?
 
     Bring in the react-bootstrap library and use it to style your application making sure that it is responsive.
 
+    Number and name of feature: 
+    Estimate of time needed to complete: 
+    Start time:  
+    Finish time:  
+    Actual time needed to complete: 
 
 ### Feature #4 Add Interaction
 
@@ -78,6 +87,12 @@ How are we implementing it?
 
     When the user clicks on elements such as the header, footer or title of page, make something change using state.
     You can update the words, change the styles or add something new. Be creative.
+
+    Number and name of feature: 
+    Estimate of time needed to complete: 
+    Start time:  
+    Finish time:  
+    Actual time needed to complete: 
 
 
 ## How To Run
