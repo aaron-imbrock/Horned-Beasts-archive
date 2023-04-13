@@ -2,32 +2,15 @@
 
 ## Requirements
 
+Installation:
+
+```shell
+npm install react react-bootstrap bootstrap
+```
+
 ### Feature Tasks
 
-### Feature #1
-
-  - Complete the following steps to setup your repository:
-    - Create a React application using create-react-app as demonstrated in class.
-          Use the command npx create-react-app `<repo-name>`.
-    - Create a new repository on GitHub WITHOUT a README.md. We will import an “existing” repository with its own README
-    - Follow the instructions given by GitHub to “push an existing repository from the command line” be sure to select HTTPS or SSH, whichever is relevant for you
-    - Create a Branch and begin your work. As always, ACP often.
-
-  - Your App component should render the following, each of which is defined in their own files.
-    - Header
-    - Footer
-    - Main component
-
-  - Your Header component needs to have an `<h1>` with a title.
-
-  - Your Footer component needs to contain your name as the author.
-
-  - The Main component needs to render at least two copies of a component called HornedBeast.
-
-  - The Main component needs to pass title, imageUrl, and description into each HornedBeast component. For the purpose of this lab, you can pass whatever title, url and description that you want into each HornedBeast component.
-  - The HornedBeast component needs to contain an `<h2>` that displays the title of the animal, an `<img>` element with src, alt and title attributes, and a `<p>` that displays the description.
-
-### Feature #2 Display Images
+## Feature #1: Display Images
 
 Why are we implementing this feature?
 
@@ -43,13 +26,41 @@ How are we implementing it?
 
     The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
 
+```shell
     Number and name of feature: 
     Estimate of time needed to complete: 
     Start time:  
     Finish time:  
-    Actual time needed to complete:  
+    Actual time needed to complete: 
+```
 
-### Feature #3 Bootstrap
+## Feature #2: Allow Users to Favorite Individual Beasts
+
+Why are we implementing this feature?
+
+    As a user, I want to be able to interact with the site and favorite beasts.
+
+What are we going to implement?
+
+Given that a user opens the application in the browser
+When a user clicks on an image of a beast
+Then the number of "Favorites" displayed on that beast will increase by one.
+
+How are we implementing it?
+
+    Create state inside of the HornedBeast component that keeps track of the number of times each beast has been favorited.
+
+    Put a heart in each HornedBeast component with the number of “Favorites” next to it.
+
+```shell
+    Number and name of feature: 
+    Estimate of time needed to complete: 
+    Start time:  
+    Finish time:  
+    Actual time needed to complete: 
+```
+
+## Feature 3: Bootstrap
 
 Why are we implementing this feature?
 
@@ -65,13 +76,15 @@ How are we implementing it?
 
     Bring in the react-bootstrap library and use it to style your application making sure that it is responsive.
 
+```shell
     Number and name of feature: 
     Estimate of time needed to complete: 
     Start time:  
     Finish time:  
     Actual time needed to complete: 
+```
 
-### Feature #4 Add Interaction
+## Stretch Goal: Add Interaction
 
 Why are we implementing this feature?
 
@@ -88,12 +101,13 @@ How are we implementing it?
     When the user clicks on elements such as the header, footer or title of page, make something change using state.
     You can update the words, change the styles or add something new. Be creative.
 
+```shell
     Number and name of feature: 
     Estimate of time needed to complete: 
     Start time:  
     Finish time:  
     Actual time needed to complete: 
-
+```
 
 ## How To Run
 
