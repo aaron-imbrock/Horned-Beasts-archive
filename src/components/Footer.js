@@ -2,8 +2,10 @@ import { Component } from 'react';
 
 class Footer extends Component {
     render() {
-        return <h1>Created by {this.props.creator}</h1>
+      return (
+        <p>{this.props.title}</p>
+      );
     }
-}
+  }
 
-export default Footer;
+  export default Footer;

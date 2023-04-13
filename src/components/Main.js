@@ -1,23 +1,48 @@
-import React from 'react';
-import HornedBeast from './Hornedbeast';
+import { Component } from 'react';
+import Image from 'react-bootstrap/Image'
 
-const imgs = [
-    'https://bobbyhadz.com/images/blog/react-prevent-multiple-button-clicks/thumbnail.webp',
-    'https://bobbyhadz.com/images/blog/react-prevent-multiple-button-clicks/thumbnail.webp',
-    'https://bobbyhadz.com/images/blog/react-prevent-multiple-button-clicks/thumbnail.webp'
-]
-
-
-class Main extends React.Component {
+class Main extends Component {
     render() {
-        return (
-            <>
-                <HornedBeast title={'Big Rhino'} src={imgs[0]} alt={'Grey Rhino'} description={'Rhino running'} />
-                <HornedBeast title={'Blue Pelicon'} src={imgs[1]} alt={'Blue Pelicon'} description={'Blue Pelicon running'} />
-                <HornedBeast title={'Pink Flamingo'} src={imgs[2]} alt={'Pink Flamingo'} description={'Pink Flamingo running'} />
-            </>
-        )
+      return (
+        <div>
+          <h2>{this.props.heading}</h2>
+          {
+            this.props.imageUrls.map(imageInfo => <HornedBeast info={imageInfo} />)
+          }
+        </div>
+      );
     }
-}
+  }
 
-export default Main;    
+class HornedBeast extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      status: "Nay",
+    }
+  }
+
+  // NOTE: use arrow functions for event handlers to retain proper contextual "this"
+  handleClick = () => {
+    // want to flip the yay to nay or vice versa
+    // in other words update state
+    // It's a rule - you set state using the following method:
+    const newStatus = this.state.status === "Nay" ? "Yay" : "Nay";
+
+    this.setState({
+      status: newStatus
+    });
+
+  }
+  render() {
+    return (
+      <div onClick={this.handleClick}>
+        <p>{this.props.info.title}</p>
+        <Image src={this.props.info.image_url} alt='some horned beast' rounded fluid />
+        <p>{this.props.info.description}</p>
+        <p>{this.state.status}</p>
+      </div>
+    );
+  }
+}
+  export default Main;
