@@ -27,11 +27,11 @@ How are we implementing it?
     The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
 
 ```shell
-    Number and name of feature: 
-    Estimate of time needed to complete: 
-    Start time:  
-    Finish time:  
-    Actual time needed to complete: 
+    Number and name of feature: Feature     #1: Display Images
+    Estimate of time needed to complete:    45 minutes
+    Start time:                             20:54
+    Finish time:                            21:37
+    Actual time needed to complete:         47 minutes
 ```
 
 ## Feature #2: Allow Users to Favorite Individual Beasts
