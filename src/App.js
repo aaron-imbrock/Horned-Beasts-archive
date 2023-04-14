@@ -9,7 +9,7 @@ function App() {
   return (
    <>
     <Header title='Horned Beasts'/>
-    <Main heading="Main soon" imageUrls={imageUrls}/>
+    <Main heading="Choose Your Favorite!" imageUrls={imageUrls}/>
     <Footer title='Your opinion counts!'/>
    </>
   );

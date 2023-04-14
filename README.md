@@ -53,11 +53,11 @@ How are we implementing it?
     Put a heart in each HornedBeast component with the number of “Favorites” next to it.
 
 ```shell
-    Number and name of feature: 
-    Estimate of time needed to complete: 
-    Start time:  
-    Finish time:  
-    Actual time needed to complete: 
+    Number and name of feature: Feature     #2: Allow Users to Favorite Individual Beasts
+    Estimate of time needed to complete:    45 minutes
+    Start time:                             18:22
+    Finish time:                            18:46
+    Actual time needed to complete:         24 minutes
 ```
 
 ## Feature 3: Bootstrap
