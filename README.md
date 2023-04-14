@@ -64,7 +64,8 @@ How are we implementing it?
 
 Why are we implementing this feature?
 
-    As a user, I want to see a visually pleasing application that is also reponsive when I view this application on different screen sizes.
+    As a user, I want to see a visually pleasing application that
+    is also reponsive when I view this application on different screen sizes.
 
 What are we going to implement?
 
@@ -74,13 +75,16 @@ Then each image should be rendered in a visually pleasing way: in columns, as sc
 
 How are we implementing it?
 
-    Bring in the react-bootstrap library and use it to style your application making sure that it is responsive.
+    Bring in the react-bootstrap library and use it to style your 
+    application making sure that it is responsive.
 
 ```shell
-    Number and name of feature: 
-    Estimate of time needed to complete: 
-    Start time:  
-    Finish time:  
+    Number and name of feature:             Feature 3: Bootstrap
+    Estimate of time needed to complete:    45 minutes 
+    Start time:                             18:50
+    Finish time:                            19:34
+    Start time:                             
+    Finish time:                            
     Actual time needed to complete: 
 ```
 
