@@ -56,8 +56,8 @@ How are we implementing it?
     Number and name of feature: Feature     #2: Allow Users to Favorite Individual Beasts
     Estimate of time needed to complete:    45 minutes
     Start time:                             18:22
-    Finish time:  
-    Actual time needed to complete: 
+    Finish time:                            18:46
+    Actual time needed to complete:         24 minutes
 ```
 
 ## Feature 3: Bootstrap
