@@ -18,8 +18,8 @@ class HornedBeast extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      favorite: "Nay",
-    }
+      count: 0,
+    };
   }
 
   // NOTE: use arrow functions for event handlers to retain proper contextual "this"
@@ -27,17 +27,16 @@ class HornedBeast extends Component {
     // want to flip the yay to nay or vice versa
     // in other words update state
     // It's a rule - you set state using the following method:
-    const newStatus = this.state.favorite === "Nay" ? "Yay" : "Nay";
-
+    const incrementCount = this.state.count + 1;
+    
     this.setState({
-      favorite: newStatus
+      count: incrementCount
     });
-
   }
   render() {
     return (
       <div onClick={this.handleClick}>
-        <p>{this.state.favorite}</p>
+        <p>{this.state.count}</p>
         <p>{this.props.info.title}</p>
         <Image src={this.props.info.image_url} alt='some horned beast' rounded fluid />
         <p>{this.props.info.description}</p>
