@@ -82,7 +82,9 @@ How are we implementing it?
     Number and name of feature:             Feature 3: Bootstrap
     Estimate of time needed to complete:    45 minutes 
     Start time:                             18:50
-    Finish time:  
+    Finish time:                            19:34
+    Start time:                             
+    Finish time:                            
     Actual time needed to complete: 
 ```
 
