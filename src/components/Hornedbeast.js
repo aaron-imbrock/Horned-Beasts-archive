@@ -26,6 +26,7 @@ class HornedBeast extends Component {
     }
     render() {
         return (
+            <Container>
             <Card style={{ width: '18rem' }}>
                 <div onClick={this.handleClick}>
                     <Row>
@@ -36,6 +37,7 @@ class HornedBeast extends Component {
                     <Image src={this.props.info.image_url} alt='some horned beast' rounded fluid />
                     <Col><p>{this.props.info.description}</p></Col>
                 </div>
+                </Card>
             </Container>
         );
     }
